@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>example-OLAP</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>4VB2TujF72wYz9FJWC/hgiPVxZ8=25-11-2024 21:54:5425-11-2024 21:54:54</TimeStamp>
+        <ID>
+          <String>Dimensional Bike Z</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>eDRJ6NeaHZPmpN73AeniCPhiR+0=25-11-2024 21:55:0825-11-2024 21:55:08</TimeStamp>
+        <ID>
+          <String>Dimensional Bike Z</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YGvjGGupc/K41AU5OwLOJUSk31Q=25-11-2024 22:09:2225-11-2024 21:55:22</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9wmso1CuHw5h4abfws4F+t1ST1s=25-11-2024 22:18:1425-11-2024 21:55:22</TimeStamp>
+        <ID>
+          <String>Dim Territorios</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1KZCXSFLexQErufDNW/as7t15cU=25-11-2024 22:08:4925-11-2024 21:55:22</TimeStamp>
+        <ID>
+          <String>Dim Clientes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wMnxZFgX49HicsEFnbM+zwisdhg=25-11-2024 22:09:0325-11-2024 21:55:22</TimeStamp>
+        <ID>
+          <String>Dim Empleados</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>526T1dZGpgyJVWXsldRcipITVj0=25-11-2024 22:08:0425-11-2024 21:55:22</TimeStamp>
+        <ID>
+          <String>Dim Productos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>0JzyrY94QwM8f9/fsARVr7Y4REg=25-11-2024 22:17:5225-11-2024 22:17:52yFw2oyoOv37N8nzeTBxWCqytFgk=25-11-2024 22:17:5225-11-2024 22:17:52</TimeStamp>
+        <ID>
+          <String>Dimensional Bike Z KPI 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>xyJGsY+9eFxmXdC3L5wrSGVnetM=25-11-2024 22:19:4525-11-2024 22:19:45PyGmCKAcNbI6q07Y9lOB14J3wt0=25-11-2024 22:19:4525-11-2024 22:19:45</TimeStamp>
+        <ID>
+          <String>Dimensional Bike Z KPI 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Pdo5wUlDTAIX562D28m8y0QZ7UI=25-11-2024 22:32:0125-11-2024 22:32:01pCd4BN/I78bifMntCY8TX6nyePE=25-11-2024 22:32:0125-11-2024 22:32:01</TimeStamp>
+        <ID>
+          <String>Dimensional Bike Z KPI 3</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>S8w2f0+DpIf/r9si4RkzxetgDrU=25-11-2024 21:52:5925-11-2024 21:52:59</TimeStamp>
+      <ID>
+        <String>example-OLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-11-26T01:32:11.83Z</LastDeployed>
+</DeploymentSnapshot>
